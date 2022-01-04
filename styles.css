@@ -3,17 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 *:not(i) {
     font-family: "Poppins", sans-serif;
 }
-
-
 body {
     background: linear-gradient(to right, #24c6dc, #514a9d);
     height: 100vh;                                                           /*LINEAR GRAIDENT WORKED BECAUSE OF THIS*/
 }
-
 .container {
     display: block;
     text-align: justify;
@@ -34,7 +30,6 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
 .search-box input {
     padding: 5px;
     width: 70%;
@@ -43,7 +38,6 @@ body {
     border-bottom: 3px solid #ae9cff;
     font-size: 16px;
 }
-
 .search-box button {
     padding: 15px 0;
     width: 25%;
@@ -57,18 +51,15 @@ body {
 .result {
     position: relative;
 }
-
 .result h3 {
     font-size: 30px;
     color: #23177a;
 }
-
 .result .word {
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
 }
-
 .result button {
     background-color: transparent;
     color: #9145B6;
@@ -76,7 +67,6 @@ body {
     outline: none;
     font-size: 20px;
 }
-
 .result .details {
     display: flex;
     gap: 10px;
@@ -84,11 +74,9 @@ body {
     margin: 5px 0 20px 0;
     font-size: 14px;
 }
-
 .word-meaning {
     color: #575a7b;
 }
-
 .word-example {
     color: #344CB7;
     font-style: italic;
@@ -96,7 +84,6 @@ body {
     padding-left: 20px;
     margin-top: 30px;
 }
-
 .error {
     margin-top: 80px;
     text-align: center;
